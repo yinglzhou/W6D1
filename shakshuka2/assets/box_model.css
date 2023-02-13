@@ -97,3 +97,18 @@ aside {
   flex-direction: row;
  
 }
+
+.ingredients-list li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+ol li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.reviews {
+  display: inline-flex;
+  flex-direction: row;
+}
