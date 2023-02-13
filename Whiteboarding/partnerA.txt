@@ -1,3 +1,29 @@
 1. Indexing can be more costly especially if multiple INSERTS and changes are implemented. This is because Indexing requires modifications to be made. 
 
-2. 
+2. Enrollments
+
+belongs_to :students,
+primary_key: :id,
+foreign_key: :student_id,
+class_name: :User
+
+
+belongs_to :classes,
+primary_key: :id,
+foreign_key: :course_id,
+class_name: :Course 
+
+Users
+
+has_many :Enrollments,
+primary_key: :id,
+foreign_key: :student_id,
+class_name: :Enrollment
+
+
+Courses
+
+has_many :enrollments,
+primary_key: :id,
+foreign_key: :course_id,
+class_name: :Course
