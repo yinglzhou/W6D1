@@ -1,0 +1,1 @@
+select employees.name from employees join deparments on employees.id = department.employees_id where departments.name = ?;
