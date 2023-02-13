@@ -21,15 +21,16 @@
 <body>
   <header>
     <img src="./assets/appacademylogo.png" alt="App Academy Logo">
-    <nav>
+    <nav  class="inline-block">
       <ul>
-        <li><a href="#description">Description</a></li>
-        <li><a href="#ingredients">Ingredients</a></li>
-        <li><a href="#directions">Directions</a></li>
+        <li class="inline-block"><a href="#description">Description</a></li>
+        <li class="inline-block"><a href="#ingredients">Ingredients</a></li>
+        <li class="inline-block"><a href="#directions">Directions</a></li>
       </ul>
     </nav>
   </header>
 
+  <div class="aside-section-container">
   <aside>
     <h2 id="ingredients">Ingredients</h2>
 
@@ -93,7 +94,8 @@
       </li>
     </ol>
   </section>
-
+  </div>
+  
   <section id="reviews">
     <h2>Reviews</h2>
       <form id="review-form" action="/reviews" method="post">
