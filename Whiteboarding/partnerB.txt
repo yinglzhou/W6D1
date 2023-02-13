@@ -1,1 +1,3 @@
-select employees.name from employees join deparments on employees.id = department.employees_id where departments.name = ?;
+1. select employees.name from employees join deparments on employees.id = department.employees_id where departments.name = ?;
+
+2. primary_key is for the uniqueness of that table, while foreign_key is to establish the connection of 2 tables.
